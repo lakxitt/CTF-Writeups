@@ -81,15 +81,13 @@ The victim's email address was successfully changed without their knowledge.
 
 This screenshot shows the intercepted email change request and the automatically generated CSRF Proof-of-Concept (PoC) using Burp Suite.
 
-![Burp Suite CSRF PoC](images/poc.png)
+
 
 ---
 
 ## 2. Lab Successfully Solved
 
 After delivering the exploit to the victim through the Exploit Server, the lab was successfully completed.
-
-![Lab Solved](images/lab.png)
 
 ---
 
