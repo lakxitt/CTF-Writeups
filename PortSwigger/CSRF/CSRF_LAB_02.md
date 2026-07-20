@@ -126,7 +126,7 @@ The victim's email address was successfully changed without requiring a valid CS
 The application correctly rejected POST requests when the CSRF token was missing.
 
 ```md
-![POST Request Without Token]images/1.png
+![POST Request Without Token]images/aq.png
 ```
 
 ---
@@ -136,7 +136,7 @@ The application correctly rejected POST requests when the CSRF token was missing
 The intercepted request was converted from POST to GET using Burp Repeater.
 
 ```md
-![GET Request](images/2.png)
+![GET Request](images/aw.png)
 ```
 
 ---
@@ -146,7 +146,7 @@ The intercepted request was converted from POST to GET using Burp Repeater.
 The GET request successfully changed the email even without a CSRF token.
 
 ```md
-![GET Without Token](images/3.png)
+![GET Without Token](images/ae.png)
 ```
 
 ---
@@ -156,7 +156,7 @@ The GET request successfully changed the email even without a CSRF token.
 Burp Suite automatically generated a Proof-of-Concept HTML exploit.
 
 ```md
-![CSRF PoC Generator](images/4.png)
+![CSRF PoC Generator](images/ar.png)
 ```
 
 ---
