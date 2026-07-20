@@ -126,7 +126,7 @@ The victim's email address was successfully changed without requiring a valid CS
 The application correctly rejected POST requests when the CSRF token was missing.
 
 ```md
-![POST Request Without Token](images/1.png)
+![POST Request Without Token]images/1.png
 ```
 
 ---
